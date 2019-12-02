@@ -1,0 +1,27 @@
+
+.fankui .til{
+  padding: 66rpx 40rpx 52rpx;
+  font-size: 28rpx;
+  color: #888;
+} 
+
+.fankui .fankuiCon{
+  width: 644rpx;
+  height: 265rpx;
+  background:rgba(237,237,237,1);
+  border-radius:20rpx;
+  margin: 0 auto;
+  padding: 28rpx;
+  color: #ccc;
+}
+.fankui .sub{
+  width:400rpx;
+  height:90rpx;
+  background:rgba(12,205,248,1);
+  border-radius:45rpx;
+  margin-top: 61rpx;
+  color: #fff;
+  font-weight: normal;
+  line-height: 90rpx;
+  padding: 0;
+}

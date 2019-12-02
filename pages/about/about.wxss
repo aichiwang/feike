@@ -1,0 +1,35 @@
+
+.about{
+  text-align: center;
+}
+.about image{
+  width: 180rpx;
+  height: 180rpx;
+  background:rgba(238,238,238,1);
+  border-radius:50%;
+  margin-top: 296rpx;
+}
+.about .appName{
+  font-size:36rpx;
+  font-family:PingFang SC;
+  font-weight:600;
+  color:rgba(51,51,51,1);
+  line-height:34rpx;
+  margin: 31rpx 0;
+}
+
+.about .version{
+  font-size:24rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(204,204,204,1);
+  line-height:34rpx;
+}
+.bottom {
+  margin-top: 461rpx;
+  font-size:24rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(136,136,136,1);
+  line-height:34rpx;
+}

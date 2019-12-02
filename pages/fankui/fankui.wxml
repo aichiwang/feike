@@ -1,0 +1,5 @@
+<view class="fankui">
+  <view class="til">感谢您为飞客宝典留下宝贵意见！</view>
+<textarea class="fankuiCon" placeholder="请输入您的意见与建议..."></textarea>
+<button class="sub">提交</button>
+</view>

@@ -1,0 +1,49 @@
+
+<view class="wrap">
+  <view class="schoolList">
+    <picker class="cityPicker" bindchange="bindPickerChange" value="{{cityInd}}" range="{{cityArray}}">
+      <view class="cityPicker">
+        {{cityArray[cityInd]}}
+        <image class="down" src="../img/down.png"></image>
+      </view>
+    </picker>
+    <view class="list">
+      <view class="item">
+        <image src="" class="bigPic"></image>
+        <view class="con">
+          <view class="til">慧飞赤峰红山分校</view>
+          <view class="addr">地址：内蒙古赤峰市红山区桥北蒙东 云计算产业孵化园B区</view>
+          <view class="length">
+            <image src="../img/location.png"></image>
+            <text>5.6km</text>
+          </view>
+        </view>
+      </view>
+      <view class="item">
+        <image src="" class="bigPic"></image>
+        <view class="con">
+          <view class="til">慧飞赤峰红山分校</view>
+          <view class="addr">地址：内蒙古赤峰市红山区桥北蒙东 云计算产业孵化园B区</view>
+          <view class="length">
+            <image src="../img/location.png"></image>
+            <text>5.6km</text>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+   <view class="bottom">
+      <view class="item">
+        <image class="botIcon" src="../img/protect.png"></image>
+        <view class="botDesc">培训</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/train.png"></image>
+        <view class="botDesc">训练</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/my.png"></image>
+        <view class="botDesc">我的</view>
+      </view>
+    </view>
+</view>

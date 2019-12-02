@@ -1,0 +1,50 @@
+<!--index.wxml-->
+<view class="container">
+	<view>
+		<text class="til">为你专属定制学习内容</text>
+    <picker bindchange="bindPickerChange" value="{{provinceInd}}" range="{{array}}">
+      <view class="proviencePicker">
+        <image class="location" src="../img/location.png"></image>
+        {{array[provinceInd]}}
+        <image class="down" src="../img/down.png"></image>
+      </view>
+    </picker>
+	</view>
+  <view class="sex">
+    <text class="text">1.请选择您的性别</text>
+    <view class="sexWrap">
+      <view>
+        <image class="tx" src="../img/male.png"></image>
+        <view class="desc">男士</view>
+        <image class="label" src="../img/cur.png"></image>
+      </view>
+      <view>
+        <image class="tx" src="../img/female.png"></image>
+        <view class="desc">女士</view>
+        <image class="label" src="../img/cur.png"></image>
+      </view>
+    </view>
+  </view>
+  <view class="sex">
+    <text class="text">2.请选择学习目的</text>
+    <view class="sexWrap">
+      <view>
+        <image class="tx" src="../img/work.png"></image>
+        <view class="desc">工作</view>
+        <image class="label" src="../img/cur.png"></image>
+      </view>
+      <view>
+        <image class="tx" src="../img/entertain.png"></image>
+        <view class="desc">娱乐</view>
+        <image class="label" src="../img/cur.png"></image>
+      </view>
+      <view>
+        <image class="tx" src="../img/toknow.png"></image>
+        <view class="desc">了解</view>
+        <image class="label" src="../img/cur.png"></image>
+      </view>
+    </view>
+  </view>
+  <button class="next" bindtap="toNext">下一步</button>
+  <button class="skip" bindtap="toNext">跳过</button>
+</view>

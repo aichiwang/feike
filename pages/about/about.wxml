@@ -1,0 +1,9 @@
+<view class="about">
+  <image class="feikeIcon" src=""></image>
+  <view class="appName">飞客宝典</view>
+  <view class="version">1.1.0</view>
+  <view class="bottom">
+    <view>商务合作电话</view>
+    <view>18201019980(微信同步)</view>
+  </view>
+</view>

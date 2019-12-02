@@ -1,0 +1,57 @@
+<view class="con">
+    <view class="top">
+      <view>
+        <text class="text">utc理论题库</text>
+        <image src="../img/down.png" class="iconDown"></image>
+        <image src="../img/sign.png" class="sign"></image>
+      </view>
+    </view>
+    <view class="ads">
+      <image src="../img/sign.png"></image>
+    </view>
+    <view class="tab">
+      <text class="tabItem cur">航拍技术</text>
+      <text class="tabItem">植保技术</text>
+      <text class="tabItem">巡航技术</text>
+      <text class="tabItem">测绘技术</text>
+    </view>
+    <view class="tabCon">
+      <view class="conItem">
+        <view class="shunxu">
+          <view>顺序练习</view>
+          <view class="percent">0/2000</view>
+        </view>
+        <view class="zhangjie">
+          <image src="../img/zhangjie.png"></image>
+          <view>章节练习</view>
+        </view>
+        <view class="suiji">
+          <image src="../img/suiji.png"></image>
+          <view>随机练习</view>
+        </view>
+        <view class="moni">
+          <image src="../img/moni.png"></image>
+          <view>模拟考试</view>
+        </view>
+        <view class="cuoti">
+          <image src="../img/cuoti.png"></image>
+          <view>我的错题</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="bottom">
+      <view class="item">
+        <image class="botIcon" src="../img/protect.png"></image>
+        <view class="botDesc">培训</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/train.png"></image>
+        <view class="botDesc">训练</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/my.png"></image>
+        <view class="botDesc">我的</view>
+      </view>
+    </view>
+</view>

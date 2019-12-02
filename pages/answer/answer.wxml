@@ -1,0 +1,33 @@
+<view class="answer">
+    <view class="tab">
+      <text class="tabItem cur">答题模式</text>
+      <text class="tabItem">背题模式</text>
+    </view>
+    <view class="question">
+        <view class="til">【单选题】对于一部陌生的植保机，并且遥控器摇杆 为自动回中，以下做法错误的是</view>
+        <view class=" ans ansA">
+          <text class="label">A</text>
+          <text class="con">检查摇杆模式，确认为自身所使用的习惯，启 动飞行器之后向下压油门(垂直)摇杆，观察 飞 行器转速是否有下降，如下降继续测试其他</text>
+        </view>
+        <view class=" ans  ansB right">
+          <text class="label">B</text>
+          <text class="con">直接满载起飞测试飞行稳定性</text>
+        </view>
+        <view class="ans  ansC">
+          <text class="label">C</text>
+          <text class="con">进行校准磁罗盘</text>
+        </view>
+        <view class=" ans ansD wrong">
+          <text class="label">D</text>
+          <text class="con">确认螺旋桨无破损，电机运转顺畅</text>
+        </view>
+    </view>
+    <view class="bottom">
+        <image src="../img/right.png"></image>
+        <text class="rightNum">0</text>
+        <image src="../img/wrong.png"></image>
+        <text class="wrongNum">0</text>
+        <text class="percent">1/1212</text>
+        <image class="up" src="../img/up.png"></image>
+    </view>
+</view>

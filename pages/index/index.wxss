@@ -1,0 +1,68 @@
+/**index.wxss**/
+
+.container{
+  text-align: center;
+}
+.container .til{
+	font-weight: bold;
+  font-size: 38rpx;
+	color:#333;
+}
+.location{
+  width: 24rpx;
+  height: 30rpx;
+  vertical-align: middle;
+}
+.down{
+  width: 20rpx;
+  height: 12rpx;
+  vertical-align: middle;
+}
+.proviencePicker{
+  margin-top: 56rpx;
+  text-align: center;
+}
+.sex{
+  margin-top: 97rpx;
+  
+}
+.sex .sexWrap>view{
+  float: left;
+  position: relative;
+  margin: 64rpx;
+}
+.sex .sexWrap>view .desc{
+  font-size: 26rpx;
+  color: #555;
+}
+.sex .text{
+  font-size: 28rpx;
+  color: #888888;
+}
+.sex .tx{
+  width: 100rpx;
+  height: 100rpx;
+}
+.sex .label{
+  width: 30rpx;
+  height: 30rpx;
+  position: absolute;
+  top: 70rpx;
+  right: 0;
+}
+
+.next,.skip{
+  width: 320rpx;
+  height: 90rpx;
+  border-radius: 45rpx;
+  border: 1px solid #333;
+  background: transparent;
+  color: #333;
+  font-size: 28rpx;
+  line-height: 90rpx;
+  padding: 0;
+}
+.skip{
+  border: none;
+  color: #999;
+}

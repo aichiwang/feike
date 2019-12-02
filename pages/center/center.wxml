@@ -1,0 +1,47 @@
+<view class="center">
+  <view class="con">
+    <view class="uInfo">
+      <image class="uPic" src=""></image>
+      <text class="unick">无敌飞猪</text>
+    </view>
+    <view class="myScore">
+      <text class="des">我的积分</text>
+      <text class="score">10</text>
+      <button class="toGetScore">获取积分</button>
+    </view>
+    <view class="navItem">
+      <image class="navIcon" src="../img/tiku.png"></image>
+      <text>切换题库</text>
+      <image class="rightIcon"v src="../img/right2.png"></image>
+    </view>
+    <view class="navItem">
+      <image class="navIcon" src="../img/cuoti.png"></image>
+      <text>我的错题</text>
+      <image class="rightIcon"v src="../img/right2.png"></image>
+    </view>
+    <view class="navItem">
+      <image class="navIcon" src="../img/fankui.png"></image>
+      <text>问题反馈</text>
+      <image class="rightIcon"v src="../img/right2.png"></image>
+    </view>
+    <view class="navItem">
+      <image class="navIcon" src="../img/about.png"></image>
+      <text>关于我们</text>
+      <image class="rightIcon"v src="../img/right2.png"></image>
+    </view>
+  </view>
+  <view class="bottom">
+      <view class="item">
+        <image class="botIcon" src="../img/protect.png"></image>
+        <view class="botDesc">培训</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/train.png"></image>
+        <view class="botDesc">训练</view>
+      </view>
+      <view class="item">
+        <image class="botIcon" src="../img/my.png"></image>
+        <view class="botDesc">我的</view>
+      </view>
+    </view>
+</view>
