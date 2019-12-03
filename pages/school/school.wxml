@@ -1,0 +1,25 @@
+<view class="school">
+  <view class="top">
+    <image class="lunbo" src="../img/male.png"></image>
+    <view class="schoolInfo">
+      <view class="til">慧飞赤峰红山分校</view>
+      <view class="add">地址：内蒙古赤峰市红山区桥北蒙东云 计算产业孵化园B区</view>
+      <view class="location">
+        <image src="../img/location.png"></image>
+        <text>6.2km</text>
+      </view>
+      <button>免费报名</button>
+    </view>
+  </view>
+  <view class="kecheng">
+    <view class="kechengTab">
+      <text class="cur">专业课程</text>
+      <text>学校介绍</text>
+    </view>
+    <view class="kechengDetal">
+      <text>无人机航拍技术</text>
+      <text>无人机航拍技术</text>
+      <text>无人机航拍技术</text>
+    </view>
+  </view>
+</view>

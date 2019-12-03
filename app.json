@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/school/school",
     "pages/shouye/shouye",
     "pages/about/about",
     "pages/fankui/fankui",

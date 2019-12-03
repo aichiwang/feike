@@ -1,0 +1,87 @@
+
+.school{
+  background:rgba(248,248,248,1);
+}
+.school .top .lunbo{
+  width: 750rpx;
+  height: 480rpx;
+  background: #fff;
+}
+
+.school .top .schoolInfo{
+  position: relative;
+  padding: 53rpx 35rpx 44rpx;
+  background: #fff;
+}
+.school .top .schoolInfo .til{
+  width:440rpx;
+  height:39rpx;
+  overflow: hidden;
+  font-size:40rpx;
+  font-family:PingFang SC;
+  font-weight:600;
+  color:rgba(51,51,51,1);
+  line-height:34rpx;
+}
+
+.school .top .schoolInfo .add{
+  width:441rpx;
+  margin: 30rpx 0;
+  font-size:26rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(85,85,85,1);
+  line-height:34rpx;
+  overflow: hidden;
+}
+
+.school .top .schoolInfo .location image{
+  width:20rpx;
+  height:25rpx;
+}
+
+.school .top .schoolInfo .location text{
+  font-size:26rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(136,136,136,1);
+  line-height:34rpx;
+  opacity:0.5;
+}
+
+.school .top .schoolInfo button{
+  position: absolute;
+  right: 0;
+  top: 100rpx;
+  width:180rpx;
+  height:70rpx;
+  background:rgba(12,205,248,1);
+  border-radius:35rpx;
+  padding: 0;
+  font-size:28rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(255,255,255,1);
+  line-height:70rpx;
+}
+
+.school .kecheng{
+  margin-top: 20rpx;
+}
+.school .kecheng .kechengTab{
+  height: 110rpx;
+  background: #fff;
+  text-align: center;
+}
+.school .kecheng .kechengTab text{
+  display: inline-block;
+  margin: 0 105rpx;
+  text-align: center;
+  line-height: 110rpx;
+}
+.school .kecheng .kechengTab text.cur{
+  color: #333;
+  font-weight: bold;
+  border-bottom: 3rpx slid #333;
+
+}
