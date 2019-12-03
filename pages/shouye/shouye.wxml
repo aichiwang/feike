@@ -54,4 +54,53 @@
         <view class="botDesc">我的</view>
       </view>
     </view>
+    <view class="sigin">
+      <view class="siginCon">
+        <view class="til">每日签到</view>
+        <view class="desc">已累计签到1天</view>
+        <view class="siginList">
+          <view class="siginItem">
+            <text class="label">1</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">2</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">3</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">4</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">5</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">6</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+          <view class="siginItem">
+            <text class="label">7</text>
+            <view class="rewards">+2</view>
+            <text class="des">未签到</text>
+          </view>
+        </view>
+        <button class="siginBtn">签到</button>
+        <view class="siginState">累计签到将获得前1天的积分+1</view>
+      </view>
+      <view class="siginSucc">
+        <view class="siginRewards">+3</view>
+        <view class="siginRewardsSub">签到获得积分</view>
+      </view>
+    </view>
 </view>
