@@ -22,4 +22,13 @@
       <text>无人机航拍技术</text>
     </view>
   </view>
+
+  <view class="baoming">
+    <view class="til">在线免费报名</view>
+    <input class="uname" type="text" placeholder="请输入您的姓名"></input>
+    <input class="uphone" type="text" placeholder="请输入手机号"></input>
+    <input class="code" type="text" placeholder="请输入验证码"></input>
+    <text class="getCode">获取验证码</text>
+    <button class="toBaoming">立即报名</button>
+  </view>
 </view>
