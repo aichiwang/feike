@@ -50,5 +50,12 @@ Page({
       userInfo: e.detail.userInfo,
       hasUserInfo: true
     })
-  }
+  },
+  hrefTo: function (event) {
+    var href = event.currentTarget.dataset.href;
+    wx.navigateTo({
+      url: '../' + href + '/' + href
+    })
+    console.log(href)
+  },
 })

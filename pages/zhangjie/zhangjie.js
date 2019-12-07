@@ -1,11 +1,9 @@
-
 //index.js
 //获取应用实例
 const app = getApp()
 
 Page({
   data: {
-    showList: false,
     provinceInd: 0,
     array: ['北京市', '天津市', '保定市'],
     motto: 'Hello World',
@@ -20,7 +18,7 @@ Page({
     })
   },
   onLoad: function () {
-
+    
   },
   getUserInfo: function (e) {
     console.log(e)
@@ -30,19 +28,12 @@ Page({
       hasUserInfo: true
     })
   },
-  toNext: function () {
+  hrefTo: function (event) {
+    var href =  event.currentTarget.dataset.href;
     wx.navigateTo({
-      url: '../shouye/shouye'
+      url: '../' + href + '/'+href
     })
+    console.log(href)
   },
-  toShowlist: function(){
-    this.setData({
-      showList: true
-    })
-  },
-  hidelist: function(){
-    this.setData({
-      showList: false
-    })
-  }
+  
 })

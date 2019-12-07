@@ -44,11 +44,15 @@
   height: 100rpx;
 }
 .sex .label{
+  display: none;
   width: 30rpx;
   height: 30rpx;
   position: absolute;
   top: 70rpx;
   right: 0;
+}
+.sex .sexWrap .cur .label{
+  display: inline-block;
 }
 
 .next,.skip{

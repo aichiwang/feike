@@ -1,15 +1,14 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/answer/answer",
+    "pages/zhangjie/zhangjie",
     "pages/school/school",
     "pages/shouye/shouye",
     "pages/about/about",
     "pages/fankui/fankui",
     "pages/center/center",
     "pages/peixun/peixun",
-    "pages/answer/answer",
-    
-    "pages/index/index",
-    
     "pages/logs/logs"
   ],
   "window": {

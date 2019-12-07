@@ -1,39 +1,43 @@
 <view class="con">
     <view class="top">
       <view>
-        <text class="text">utc理论题库</text>
+        <picker class="tikuPicker" bindchange="bindTikuPickerChange" value="{{kuInd}}" range="{{kuArray}}">
+          <view class="">
+            {{kuArray[kuInd]}}
+          </view>
+      </picker>
         <image src="../img/down.png" class="iconDown"></image>
         <image src="../img/sign.png" class="sign"></image>
       </view>
     </view>
     <view class="ads">
-      <image src="../img/sign.png"></image>
+      <image src="../img/ad.png"></image>
     </view>
     <view class="tab">
-      <text class="tabItem cur">航拍技术</text>
-      <text class="tabItem">植保技术</text>
-      <text class="tabItem">巡航技术</text>
-      <text class="tabItem">测绘技术</text>
+      <text class="tabItem {{subKu==0?'cur':''}}" bindtap="selectSubKu" data-subKu="0">航拍技术</text>
+      <text class="tabItem {{subKu==1?'cur':''}}"  bindtap="selectSubKu" data-subKu="1">植保技术</text>
+      <text class="tabItem {{subKu==2?'cur':''}}"  bindtap="selectSubKu" data-subKu="2">巡航技术</text>
+      <text class="tabItem {{subKu==3?'cur':''}}"  bindtap="selectSubKu" data-subKu="3">测绘技术</text>
     </view>
     <view class="tabCon">
       <view class="conItem">
-        <view class="shunxu">
+        <view class="shunxu" bindtap="hrefTo" data-href="answer">
           <view>顺序练习</view>
           <view class="percent">0/2000</view>
         </view>
-        <view class="zhangjie">
+        <view class="zhangjie" bindtap="hrefTo" data-href="zhangjie">
           <image src="../img/zhangjie.png"></image>
           <view>章节练习</view>
         </view>
-        <view class="suiji">
+        <view class="suiji"  bindtap="hrefTo" data-href="answer">
           <image src="../img/suiji.png"></image>
           <view>随机练习</view>
         </view>
-        <view class="moni">
+        <view class="moni"  bindtap="hrefTo" data-href="answer">
           <image src="../img/moni.png"></image>
           <view>模拟考试</view>
         </view>
-        <view class="cuoti">
+        <view class="cuoti"  bindtap="hrefTo" data-href="answer">
           <image src="../img/cuoti.png"></image>
           <view>我的错题</view>
         </view>
@@ -41,15 +45,15 @@
     </view>
 
     <view class="bottom">
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="peixun">
         <image class="botIcon" src="../img/protect.png"></image>
         <view class="botDesc">培训</view>
       </view>
-      <view class="item">
-        <image class="botIcon" src="../img/train.png"></image>
+      <view class="item" bindtap="hrefTo" data-href="shouye">
+        <image class="botIcon" src="../img/train-cur.png"></image>
         <view class="botDesc">训练</view>
       </view>
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="center">
         <image class="botIcon" src="../img/my.png"></image>
         <view class="botDesc">我的</view>
       </view>
@@ -102,5 +106,10 @@
         <view class="siginRewards">+3</view>
         <view class="siginRewardsSub">签到获得积分</view>
       </view>
+    </view>
+
+    <view class="subkuToast" wx-if="{{showToast}}">
+      <image src="../img/gou.png"></image>
+      <view>切换至{{subkuList[subKu]}}</view>
     </view>
 </view>

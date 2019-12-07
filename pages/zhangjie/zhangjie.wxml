@@ -1,0 +1,17 @@
+<view class="zhangjie">
+   <view class="chapterItem">
+    <text class="til">1.多旋翼无人机基础知识</text>
+     <image src="../img/right2.png"></image>
+    <text class="num">102题</text>
+   </view>
+   <view class="chapterItem">
+    <text class="til">1.多旋翼无人机基础知识</text>
+     <image src="../img/right2.png"></image>
+    <text class="num">102题</text>
+   </view>
+   <view class="chapterItem">
+    <text class="til">1.多旋翼无人机基础知识</text>
+     <image src="../img/right2.png"></image>
+    <text class="num">102题</text>
+   </view>
+</view>

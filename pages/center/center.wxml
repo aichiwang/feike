@@ -13,34 +13,39 @@
       <image class="navIcon" src="../img/tiku.png"></image>
       <text>切换题库</text>
       <image class="rightIcon"v src="../img/right2.png"></image>
+      <picker class="tikuPicker" bindchange="bindPickerChange" value="{{kuInd}}" range="{{kuArray}}">
+        <view class="">
+          {{kuArray[kuInd]}}
+        </view>
+      </picker>
     </view>
-    <view class="navItem">
+    <view class="navItem" bindtap="hrefTo" data-href="answer">
       <image class="navIcon" src="../img/cuoti.png"></image>
       <text>我的错题</text>
       <image class="rightIcon"v src="../img/right2.png"></image>
     </view>
-    <view class="navItem">
+    <view class="navItem"  bindtap="hrefTo" data-href="fankui">
       <image class="navIcon" src="../img/fankui.png"></image>
       <text>问题反馈</text>
       <image class="rightIcon"v src="../img/right2.png"></image>
     </view>
-    <view class="navItem">
+    <view class="navItem" bindtap="hrefTo" data-href="about">
       <image class="navIcon" src="../img/about.png"></image>
       <text>关于我们</text>
       <image class="rightIcon"v src="../img/right2.png"></image>
     </view>
   </view>
   <view class="bottom">
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="peixun">
         <image class="botIcon" src="../img/protect.png"></image>
         <view class="botDesc">培训</view>
       </view>
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="shouye">
         <image class="botIcon" src="../img/train.png"></image>
         <view class="botDesc">训练</view>
       </view>
-      <view class="item">
-        <image class="botIcon" src="../img/my.png"></image>
+      <view class="item" bindtap="hrefTo" data-href="center">
+        <image class="botIcon" src="../img/my-cur.png"></image>
         <view class="botDesc">我的</view>
       </view>
     </view>

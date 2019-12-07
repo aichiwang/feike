@@ -5,8 +5,8 @@ const app = getApp()
 
 Page({
   data: {
-    provinceInd: 0,
-    array: ['北京市', '天津市', '保定市'],
+    kuInd: 0,
+    kuArray: ['AOPA理论题库', 'UTC', 'ASFC'],
     motto: 'Hello World',
     userInfo: {},
     hasUserInfo: false,
@@ -29,7 +29,14 @@ Page({
       hasUserInfo: true
     })
   },
-  toNext: function () {
+  hrefTo: function (event) {
+    var href = event.currentTarget.dataset.href;
+    wx.navigateTo({
+      url: '../' + href + '/' + href
+    })
+  },
+  bindPickerChange: function (event) {
+    // var href = event.currentTarget.dataset.href;
     wx.navigateTo({
       url: '../shouye/shouye'
     })

@@ -1,0 +1,31 @@
+
+.zhangjie{
+  border-top: 1px solid #EBEBEB;
+}
+.chapterItem{
+  height: 111rpx;
+  padding: 0 24rpx 0 40rpx;
+  border-bottom: 1px solid #EBEBEB;
+  line-height: 111rpx;
+}
+.chapterItem .til{
+  font-size:28rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(85,85,85,1);
+  line-height:34rpx;
+}
+.chapterItem .num{
+  float: right;
+  font-size:28rpx;
+  font-family:PingFang SC;
+  font-weight:400;
+  color:rgba(136,136,136,1);
+}
+.chapterItem image{
+  float: right;
+  width:12rpx;
+  height:20rpx;
+  margin-top: 44rpx;
+  margin-left: 15rpx;
+}

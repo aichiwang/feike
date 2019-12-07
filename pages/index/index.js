@@ -4,6 +4,8 @@ const app = getApp()
 
 Page({
   data: {
+    sex:0,
+    mudi:0,
     provinceInd: 0,
     array: ['北京市', '天津市','保定市'],
     motto: 'Hello World',
@@ -57,5 +59,15 @@ Page({
     wx.navigateTo({
       url: '../shouye/shouye'
     })
-  }
+  },
+  selectSex(event){
+    this.setData({
+      sex: event.currentTarget.dataset.sex
+    })
+  },
+  selectMudi(event) {
+    this.setData({
+      mudi: event.currentTarget.dataset.mudi
+    })
+  },
 })

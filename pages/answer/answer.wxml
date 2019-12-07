@@ -22,12 +22,73 @@
           <text class="con">确认螺旋桨无破损，电机运转顺畅</text>
         </view>
     </view>
-    <view class="bottom">
+    <view class="bottom {{showList?'show':''}}">
+      <view class="cover" bindtap="hidelist"></view>
+      <view class="botWrap">
         <image src="../img/right.png"></image>
         <text class="rightNum">0</text>
         <image src="../img/wrong.png"></image>
         <text class="wrongNum">0</text>
-        <text class="percent">1/1212</text>
-        <image class="up" src="../img/up.png"></image>
+        <text class="percent" bindtap="toShowlist">1/1212</text>
+        <image class="up" src="../img/{{showList?'down':'up'}}.png" ></image>
+      </view>
+      <view class="questionList">
+        <view class="listCon">
+          <view class="item right">1</view>
+          <view class="item wrong">2</view>
+          <view class="item">3</view>
+          <view class="item">4</view>
+          <view class="item">5</view>
+          <view class="item">6</view>
+          <view class="item">7</view>
+          <view class="item">8</view>
+          <view class="item">9</view>
+          <view class="item">10</view>
+          <view class="item">11</view>
+          <view class="item">12</view>
+        </view>
+      </view>
+    </view>
+
+    <view class="answerResult">
+      <image src="../img/male.png"></image>
+      <view class="con">
+        <view class="til">恭喜您，完成练习！</view>
+        <view class="resultInfo">
+          <view class="left">
+            <text>1</text>
+            <view>完成次数</view>
+          </view>
+          <view class="right">
+            <text>88%</text>
+            <view>正确率</view>
+          </view>
+        </view>
+        <button class="myWrong">我的错题</button>
+        <button class="toMoni">模拟考试</button>
+        <button class="toShouye">回到首页</button>
+      </view>
+    </view>
+    <view class="examResult ">
+      <image src="../img/male.png"></image>
+      <view class="con">
+        <view class="score">
+          <text class="fen">100</text>
+          <text class="danwei">分</text>
+        </view>
+        <view class="til">考神附体 逢考必过！</view>
+        <view class="resultInfo">
+          <view class="left">
+            <text>39:48</text>
+            <view>答题时长</view>
+          </view>
+          <view class="right">
+            <text>88%</text>
+            <view>正确率</view>
+          </view>
+        </view>
+        <button class="myWrong">我的错题</button>
+        <button class="toShouye">回到首页</button>
+      </view>
     </view>
 </view>

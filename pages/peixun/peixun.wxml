@@ -8,7 +8,7 @@
       </view>
     </picker>
     <view class="list">
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="school">
         <image src="" class="bigPic"></image>
         <view class="con">
           <view class="til">慧飞赤峰红山分校</view>
@@ -19,7 +19,7 @@
           </view>
         </view>
       </view>
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="school">
         <image src="" class="bigPic"></image>
         <view class="con">
           <view class="til">慧飞赤峰红山分校</view>
@@ -33,15 +33,15 @@
     </view>
   </view>
    <view class="bottom">
-      <view class="item">
-        <image class="botIcon" src="../img/protect.png"></image>
+      <view class="item" bindtap="hrefTo" data-href="peixun">
+        <image class="botIcon" src="../img/protect-cur.png"></image>
         <view class="botDesc">培训</view>
       </view>
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="shouye">
         <image class="botIcon" src="../img/train.png"></image>
         <view class="botDesc">训练</view>
       </view>
-      <view class="item">
+      <view class="item" bindtap="hrefTo" data-href="center">
         <image class="botIcon" src="../img/my.png"></image>
         <view class="botDesc">我的</view>
       </view>

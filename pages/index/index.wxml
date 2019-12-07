@@ -13,12 +13,12 @@
   <view class="sex">
     <text class="text">1.请选择您的性别</text>
     <view class="sexWrap">
-      <view>
+      <view class="{{sex==0?'cur':''}}" bindtap="selectSex" data-sex="0">
         <image class="tx" src="../img/male.png"></image>
         <view class="desc">男士</view>
         <image class="label" src="../img/cur.png"></image>
       </view>
-      <view>
+      <view class="{{sex==0?'':'cur'}}" bindtap="selectSex" data-sex="1">
         <image class="tx" src="../img/female.png"></image>
         <view class="desc">女士</view>
         <image class="label" src="../img/cur.png"></image>
@@ -28,17 +28,17 @@
   <view class="sex">
     <text class="text">2.请选择学习目的</text>
     <view class="sexWrap">
-      <view>
+      <view class="{{mudi==0?'cur':''}}" bindtap="selectMudi" data-mudi="0">
         <image class="tx" src="../img/work.png"></image>
         <view class="desc">工作</view>
         <image class="label" src="../img/cur.png"></image>
       </view>
-      <view>
+      <view class="{{mudi==1?'cur':''}}" bindtap="selectMudi" data-mudi="1">
         <image class="tx" src="../img/entertain.png"></image>
         <view class="desc">娱乐</view>
         <image class="label" src="../img/cur.png"></image>
       </view>
-      <view>
+      <view class="{{mudi==2?'cur':''}}" bindtap="selectMudi" data-mudi="2">
         <image class="tx" src="../img/toknow.png"></image>
         <view class="desc">了解</view>
         <image class="label" src="../img/cur.png"></image>
