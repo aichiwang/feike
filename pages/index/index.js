@@ -20,6 +20,8 @@ Page({
     })
   },
   onLoad: function () {
+    this.getProvince();
+
     if (app.globalData.userInfo) {
       this.setData({
         userInfo: app.globalData.userInfo,
@@ -70,4 +72,15 @@ Page({
       mudi: event.currentTarget.dataset.mudi
     })
   },
+  getProvince: function(){
+    wx.request({
+      url: 'http://www.feikebaodian.com/feike/api/question/questionTypeList', //仅为示例，并非真实的接口地址
+      data: {
+        pid: 0
+      },
+      success(res) {
+        console.log(res.data)
+      }
+    })
+  }
 })
