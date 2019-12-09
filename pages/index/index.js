@@ -74,7 +74,7 @@ Page({
   },
   getProvince: function(){
     wx.request({
-      url: 'http://www.feikebaodian.com/feike/api/question/questionTypeList', //仅为示例，并非真实的接口地址
+      url: 'https://api.feikebaodian.com/feike/api/question/questionTypeList', //仅为示例，并非真实的接口地址
       data: {
         pid: 0
       },
